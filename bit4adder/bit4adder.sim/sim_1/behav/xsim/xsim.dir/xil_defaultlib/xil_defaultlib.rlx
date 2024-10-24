@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Pranay/VLSI/practice/practice_solutions/bit4adder/bit4adder.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Pranay/VLSI/practice/practice_solutions/bit4adder/bit_4_adder.v,1729749495,verilog,,D:/Pranay/VLSI/practice/practice_solutions/full_adder/full_adder.v,,bit_4_adder,,,,,,,,
+D:/Pranay/VLSI/practice/practice_solutions/bit4adder/bit_4_adder_tb.v,1729749842,verilog,,,,bit_4_adder_tb,,,,,,,,
+D:/Pranay/VLSI/practice/practice_solutions/full_adder/full_adder.v,1729747963,verilog,,D:/Pranay/VLSI/practice/practice_solutions/bit4adder/bit_4_adder_tb.v,,full_adder,,,,,,,,
