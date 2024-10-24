@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Oct 24 20:08:50 2024
+# Process ID: 23048
+# Current directory: D:/Pranay/VLSI/practice/practice_solutions/t_ff/t_ff.runs/impl_1
+# Command line: vivado.exe -log t_ff.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source t_ff.tcl -notrace
+# Log file: D:/Pranay/VLSI/practice/practice_solutions/t_ff/t_ff.runs/impl_1/t_ff.vdi
+# Journal file: D:/Pranay/VLSI/practice/practice_solutions/t_ff/t_ff.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source t_ff.tcl -notrace
+Command: link_design -top t_ff -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 551.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 555.832 ; gain = 302.305
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.200 . Memory (MB): peak = 555.832 ; gain = 0.000
+
+Starting Cache Timing Information Task
