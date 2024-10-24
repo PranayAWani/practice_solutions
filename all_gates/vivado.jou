@@ -31,3 +31,6 @@ wait_on_run impl_1
 launch_simulation
 source all_gatestb.tcl
 open_run impl_1
+close_sim
+close_sim
+close_project
