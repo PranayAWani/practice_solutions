@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Oct 24 14:33:40 2024
+# Process ID: 8632
+# Current directory: D:/Pranay/VLSI/practice/practice_solutions/d_ff/d_ff.runs/impl_1
+# Command line: vivado.exe -log d_ff.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source d_ff.tcl -notrace
+# Log file: D:/Pranay/VLSI/practice/practice_solutions/d_ff/d_ff.runs/impl_1/d_ff.vdi
+# Journal file: D:/Pranay/VLSI/practice/practice_solutions/d_ff/d_ff.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source d_ff.tcl -notrace
