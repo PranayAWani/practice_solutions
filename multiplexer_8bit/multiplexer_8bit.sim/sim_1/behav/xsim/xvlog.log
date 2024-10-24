@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/multiplexer_8bit/bit_8_mux.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bit_8_mux
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/multiplexer_8bit/bit_8_mux_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bit_8_mux_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/multiplexer_8bit/multiplexer_8bit.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

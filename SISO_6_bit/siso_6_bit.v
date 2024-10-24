@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module siso_6_bit(
+module siso_6_bit(clk,reset,si,so);
     parameter n=12;
     input clk,reset;
     input [n-1:0] si;

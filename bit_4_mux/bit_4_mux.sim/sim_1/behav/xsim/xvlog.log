@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/bit_4_mux/bit_4_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit_4_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/bit_4_mux/bit_4_mux_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit_4_mux_tb

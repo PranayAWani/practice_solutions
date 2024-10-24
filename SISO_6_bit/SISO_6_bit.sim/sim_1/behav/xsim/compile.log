@@ -1,2 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/siso_6_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module siso_6_bit
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/siso_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module siso_tb

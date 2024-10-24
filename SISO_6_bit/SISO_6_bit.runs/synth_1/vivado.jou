@@ -2,11 +2,10 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Oct 24 15:30:19 2024
-# Process ID: 13316
+# Start of session at: Thu Oct 24 18:34:08 2024
+# Process ID: 10980
 # Current directory: D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/SISO_6_bit.runs/synth_1
-# Command line: vivado.exe -log d_ff.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source d_ff.tcl
-# Log file: D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/SISO_6_bit.runs/synth_1/d_ff.vds
+# Command line: vivado.exe -log siso_6_bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source siso_6_bit.tcl
+# Log file: D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/SISO_6_bit.runs/synth_1/siso_6_bit.vds
 # Journal file: D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/SISO_6_bit.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source d_ff.tcl -notrace

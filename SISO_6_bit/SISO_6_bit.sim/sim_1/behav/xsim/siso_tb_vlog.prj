@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../siso_6_bit.v" \
 "../../../../siso_tb.v" \
 
 # compile glbl module
