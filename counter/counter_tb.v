@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10/24/2024 02:45:34 PM
+// Create Date: 10/24/2024 10:55:48 PM
 // Design Name: 
-// Module Name: counter
+// Module Name: counter_tb
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,22 +20,21 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module counter(
-    input clk,reset,en,ud,
-    output reg [7:0]out
-    );
-    always @(posedge clk or negedge reset)
+module counter_tb();
+reg clk,reset,en,ud;
+wire [7:0]out;
+counter tb(clk,reset,en,ud,out);
+initial 
     begin
-        if(!reset)
-            out = 8'b0;
-        else if (en)
-            if(!ud)
-                begin
-                out=out+1;
-                end
-         else 
-            begin
-                out=out-1;
-            end
+    clk=1'b0;
+    reset=1'b0;
+    en=1'b0;
+    ud=1'b0;
+    #100
+    reset=1'b1;
+    en=1'b1;
     end
+always #7 clk=~clk;
+always #256 ud=~ud;
 endmodule
+
