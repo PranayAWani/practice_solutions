@@ -20,7 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module decoder_3_8_tb(
-
-    );
+module decoder_3_8_tb();
+reg [2:0]s;
+wire [7:0]d;
+decoder_3_8 tb(s,d);
+initial 
+    begin
+    s=3'b0;
+    end
+always #5 s=s+1;
 endmodule
