@@ -21,16 +21,18 @@
 
 
 module siso_tb();
-reg clk,preset,reset,d;
-wire q;
-siso_6_bit tb(clk,preset,reset,d,q);
-initial
-    begin
-    d=1'b0;
-    clk =1'b0;
-    preset =1'b0;
-    reset =1'b0;
-    end
+parameter n=12;
+reg clk,reset;
+reg [n-1:0]si;
+wire [n-1:0]so;
+siso_6_bit tb(clk,reset,si,so);
+initial begin 
+    clk=1'b0;
+    reset=1'b0;
+    si=12'b001111111111;
+    #200
+    reset=1'b1;
+end
 always #5 clk=~clk;
-always #30 d=~d;
+always #50 si=si+1;
 endmodule

@@ -17,8 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param synth.incrementalSynthesisCache C:/Users/prana/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5632-Praddumnavishwa/incrSyn
-set_msg_config -id {Common 17-41} -limit 10000000
+set_param synth.incrementalSynthesisCache C:/Users/prana/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25632-Praddumnavishwa/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7s50csga324-1
@@ -32,10 +31,7 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo d:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/SISO_6_bit.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog -library xil_defaultlib {
-  D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/d_ff.v
-  D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/siso_6_bit.v
-}
+read_verilog -library xil_defaultlib D:/Pranay/VLSI/practice/practice_solutions/SISO_6_bit/d_ff.v
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -47,12 +43,12 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
-synth_design -top siso_6_bit -part xc7s50csga324-1
+synth_design -top d_ff -part xc7s50csga324-1
 
 
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef siso_6_bit.dcp
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file siso_6_bit_utilization_synth.rpt -pb siso_6_bit_utilization_synth.pb"
+write_checkpoint -force -noxdef d_ff.dcp
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file d_ff_utilization_synth.rpt -pb d_ff_utilization_synth.pb"
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]
