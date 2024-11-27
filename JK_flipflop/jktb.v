@@ -22,9 +22,9 @@
 
 module jktb();
 reg clk,j,k,reset;
-wire q,qbar;
+wire q;
 
-jk tb(clk,j,k,reset,q,qbar);
+jk tb(clk,j,k,reset,q);
 initial 
     begin
         j=1'b0;

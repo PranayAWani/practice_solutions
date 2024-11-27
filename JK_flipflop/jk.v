@@ -22,38 +22,19 @@
 
 module jk(
     input clk,j,k,reset,
-    output reg q,qbar
+    output reg q
     );
-    always @(posedge clk or posedge reset)
+    always @(posedge clk or negedge reset)
     begin
-        if(reset) 
-            begin
-                q <= 1'b0;
-                qbar <= 1'b1;
-            end
-        else
+        if(!reset) 
+            q <= 1'b0;      
+         else
             begin
                 case({j,k})
-                    2'b00: 
-                        begin
-                        q <= q;
-                        qbar <= qbar;
-                        end
-                    2'b01: 
-                        begin
-                        q <= 1'b0;
-                        qbar <= 1'b1;
-                        end
-                    2'b10: 
-                        begin
-                        q <= 1'b1;
-                        qbar <= 1'b0;
-                        end
-                    2'b11: 
-                        begin
-                        q <= ~q;
-                        qbar <= ~qbar;
-                        end
+                    2'b00: q <= q;
+                    2'b01: q <= 1'b0;
+                    2'b10: q <= 1'b1;
+                    2'b11: q <= ~q;
                  endcase
              end
           end

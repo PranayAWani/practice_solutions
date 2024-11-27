@@ -1,6 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/JK_flipflop/jk.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/JK_flipflop/jk.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module jk
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/JK_flipflop/jktb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/practice_solutions/JK_flipflop/jktb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module jktb
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Pranay/VLSI/practice/JK_flipflop/JK_flipflop.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

@@ -1,7 +1,7 @@
-Running: xsim.dir/jktb_behav/xsimk.exe -simmode gui -wdb jktb_behav.wdb -simrunnum 0 -socket 64708
+Running: xsim.dir/jktb_behav/xsimk.exe -simmode gui -wdb jktb_behav.wdb -simrunnum 0 -socket 54376
 Design successfully loaded
-Design Loading Memory Usage: 8260 KB (Peak: 8260 KB)
+Design Loading Memory Usage: 8264 KB (Peak: 8264 KB)
 Design Loading CPU Usage: 77 ms
 Simulation completed
-Simulation Memory Usage: 8904 KB (Peak: 8904 KB)
-Simulation CPU Usage: 77 ms
+Simulation Memory Usage: 8892 KB (Peak: 8892 KB)
+Simulation CPU Usage: 108 ms
